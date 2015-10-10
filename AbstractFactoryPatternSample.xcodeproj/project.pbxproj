@@ -13,6 +13,9 @@
 		12B512201BC95D9F0031FF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B5121E1BC95D9F0031FF1E /* Main.storyboard */; };
 		12B512221BC95D9F0031FF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B512211BC95D9F0031FF1E /* Assets.xcassets */; };
 		12B512251BC95D9F0031FF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B512231BC95D9F0031FF1E /* LaunchScreen.storyboard */; };
+		12B5122E1BC95EC90031FF1E /* BrandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B5122D1BC95EC90031FF1E /* BrandFactory.m */; settings = {ASSET_TAGS = (); }; };
+		12B512311BC95FA40031FF1E /* AppleBrandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512301BC95FA40031FF1E /* AppleBrandFactory.m */; settings = {ASSET_TAGS = (); }; };
+		12B512341BC95FEE0031FF1E /* GoogleBrandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B512331BC95FEE0031FF1E /* GoogleBrandFactory.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		12B512211BC95D9F0031FF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B512241BC95D9F0031FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12B512261BC95D9F0031FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B5122C1BC95EC90031FF1E /* BrandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandFactory.h; sourceTree = "<group>"; };
+		12B5122D1BC95EC90031FF1E /* BrandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandFactory.m; sourceTree = "<group>"; };
+		12B5122F1BC95FA40031FF1E /* AppleBrandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleBrandFactory.h; sourceTree = "<group>"; };
+		12B512301BC95FA40031FF1E /* AppleBrandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleBrandFactory.m; sourceTree = "<group>"; };
+		12B512321BC95FEE0031FF1E /* GoogleBrandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleBrandFactory.h; sourceTree = "<group>"; };
+		12B512331BC95FEE0031FF1E /* GoogleBrandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleBrandFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				12B512191BC95D9F0031FF1E /* AppDelegate.m */,
 				12B5121B1BC95D9F0031FF1E /* ViewController.h */,
 				12B5121C1BC95D9F0031FF1E /* ViewController.m */,
+				12B5122C1BC95EC90031FF1E /* BrandFactory.h */,
+				12B5122D1BC95EC90031FF1E /* BrandFactory.m */,
+				12B5122F1BC95FA40031FF1E /* AppleBrandFactory.h */,
+				12B512301BC95FA40031FF1E /* AppleBrandFactory.m */,
+				12B512321BC95FEE0031FF1E /* GoogleBrandFactory.h */,
+				12B512331BC95FEE0031FF1E /* GoogleBrandFactory.m */,
 				12B5121E1BC95D9F0031FF1E /* Main.storyboard */,
 				12B512211BC95D9F0031FF1E /* Assets.xcassets */,
 				12B512231BC95D9F0031FF1E /* LaunchScreen.storyboard */,
@@ -149,6 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B5122E1BC95EC90031FF1E /* BrandFactory.m in Sources */,
+				12B512341BC95FEE0031FF1E /* GoogleBrandFactory.m in Sources */,
+				12B512311BC95FA40031FF1E /* AppleBrandFactory.m in Sources */,
 				12B5121D1BC95D9F0031FF1E /* ViewController.m in Sources */,
 				12B5121A1BC95D9F0031FF1E /* AppDelegate.m in Sources */,
 				12B512171BC95D9F0031FF1E /* main.m in Sources */,
